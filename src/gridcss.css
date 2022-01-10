@@ -1,20 +1,11 @@
-/* .pagegrid{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
-} */
+
 .pagegrid{
     display: flex ;
-    /* grid-template-columns: repeat(4,1fr); */
-    /* grid-template-rows: repeat(2,1fr); */
+    
     gap: 7%;
     margin: 17rem 12.31rem 12.625rem 6.31rem;
 }
-/* .firstimg{
-    background-color: #093E67;
-    width: 113px;
-    border-radius: 25px;
-} */
+
 .finan{
     background-color: #093E67;
     /* width: 113px; */
@@ -63,28 +54,16 @@ h4{
     display: flex;
     flex-direction: column;
 
-    /* grid-template-rows: repeat(3,1fr); */
+   
 }
-/* .passion1{
-    grid-row: 1/2;
-}
-.passiontext1{
-    grid-row: 2/3;
-} */
-/* .passion1{
-    background-color: #093E67;
-    width: 35%;
-    align-self: center;
-    border-radius: 45px;
-    padding: 0%;
-} */
+
 .passiotext1{
     display: flex;
     flex-direction: row;
 }
 .pass1{
     display: flex;
-    /* grid-template-rows: repeat(3,1fr); */
+   
     flex-direction: column;
     margin-top: 3rem;
 }

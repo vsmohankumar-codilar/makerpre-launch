@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './pricecontainer.css'
 import Free from './icon-free.svg'
-import Check from './icon-check.svg'
+// import Check from './icon-check.svg'
 import Paid from './icon-paid.svg'
 export default class pricecontainer extends Component {
     render() {
@@ -42,35 +42,7 @@ export default class pricecontainer extends Component {
                                 </li>
                             </ul>
                         </div>
-                        {/* </div> */}
-                        {/* <img src={Free} alt="iconfree" />
-                        <div className="firstboxcontent">
-                            <h5>Dip Your Toe</h5>
-                            <p>Just getting started? No problem at all! Our free plan will take you a long way.</p>
-
-                        </div>
-                        <div className="firstoption">
-                            <h2>Free</h2>
-                          
-                            <ul>
-                                <li className="listcl">
-                                    <span>✓</span>
-                                    Unlimited products
-                                </li>
-                                <li className="listcl">
-                                <span>✓</span>
-                                Basic Analytics
-                                </li>
-                                <li className="listcl">
-                                <span>✓</span>
-                                Limited Marketplace Exposure
-                                </li>
-                                <li className="listcl">
-                                <span>✓</span>
-                                10%fee per Transaction
-                                </li>
-                            </ul>
-                        </div> */}
+                        
                     </div>
                     <div className="secondcontainer">
                         <div className="secondcontimg">

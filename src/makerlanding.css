@@ -17,16 +17,11 @@ h3{
 }
 body{
     font-family: 'Manrope', sans-serif;
-    /* margin-left:3%; */
-    /* overflow-x: hidden; */
-    width: 100%;
-    
-    /* display: block; */
-    /* overflow: auto; */
+    width: 100%;  
 }
 .rightimage>img{
-    width: 100%; /* Fits the given width of the image container */
-height: auto; /* Reduces deterioration because the height isn't forced */
+    width: 100%; 
+height: auto; 
 margin: 0 -35% 0 0; 
 }
 .logocontainer{
@@ -49,9 +44,7 @@ margin: 0 -35% 0 0;
     display: flex;
     flex-direction: row;
     width: 100%;
-    /* padding-right:3%; */
-    /* overflow-x: hidden; */
-    /* margin-top: %; */
+    
 }
 p{
     text-align: center;
@@ -69,9 +62,7 @@ p{
     margin-left:10%;
 }
 .leftimage{
-   /* margin-right:72%; */
-   /* flex: 30%; */
-   /* width: 30%; */
+  
    overflow-x: hidden;
    z-index: -1;
    position: absolute;
@@ -91,7 +82,7 @@ p{
    position: absolute;
    right:0;
   max-width: 100%;
-  /* background-image: url(desktop-right.svg); */
+
 }
 .maintext{
     position: relative;
@@ -106,9 +97,7 @@ p{
     width: 50%;
     color: white;
     padding: 0 24% 0 26%;
-    /* margin-top: 2%; */
-    
-    /* background-image: url(./desktop-squiggle.svg); */
+   
 }
 h1{
     /* z-index: -1; */
@@ -141,13 +130,7 @@ span{
     h1{
         padding: 30px 40px 10px;
     }
-    /* .logocontainer{
-        align-items: center;
-    } */
-    /* .paragraph {
-        margin-top: -60%;
-        margin-left: 18%;
-    } */
+   
     
 }
 @media (max-width:766px){
@@ -192,7 +175,4 @@ span{
     }
     
    
-     /*.paragraph{
-        margin-top: 160%;
-    } */
 }

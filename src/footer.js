@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './footer.css'
-import Bgfooter from './bg-footer.svg'
+
 
 export default class footer extends Component {
     render() {
@@ -11,7 +11,7 @@ export default class footer extends Component {
                         <h4>Get Notified when we launch</h4>
                     </div>
                     <form>
-                    {/* <img className="footerimage" src={Bgfooter} alt="footerimg"/> */}
+                 
 
                         
                         <label for="email">
