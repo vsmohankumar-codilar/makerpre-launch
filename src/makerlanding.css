@@ -1,0 +1,198 @@
+:root{
+    background-color: 	#080c21;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* margin:0 2%; */
+    width: 95%;
+    
+}
+.page{
+   max-width: 100%;
+   /* display: block; */
+}
+h3{
+    color:white;
+    font-size: 2rem;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    /* margin-left:3%; */
+    /* overflow-x: hidden; */
+    width: 100%;
+    
+    /* display: block; */
+    /* overflow: auto; */
+}
+.rightimage>img{
+    width: 100%; /* Fits the given width of the image container */
+height: auto; /* Reduces deterioration because the height isn't forced */
+margin: 0 -35% 0 0; 
+}
+.logocontainer{
+    /* margin:0;
+    padding: 0; */
+    width:35%;
+    display: flex;
+    padding-left:12%;
+    padding-top: 5%;
+    height: 120px;
+}
+
+.logo{
+    
+    width:140px;
+    height: 120px;
+    /* margin: 0 120px; */
+}
+.maincont{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* padding-right:3%; */
+    /* overflow-x: hidden; */
+    /* margin-top: %; */
+}
+p{
+    text-align: center;
+    width: 85%;
+    padding-right: 15%;
+    /* margin: 1.5rem 0 4rem 0; */
+    margin-bottom: 22%;
+    font-size: 0.937rem;
+    line-height: 1.56rem;
+    color: rgb(119, 127, 152);
+    font-weight: 500;
+}
+.paragraph{
+    margin-top: -26%;
+    margin-left:10%;
+}
+.leftimage{
+   /* margin-right:72%; */
+   /* flex: 30%; */
+   /* width: 30%; */
+   overflow-x: hidden;
+   z-index: -1;
+   position: absolute;
+   /* top: 0; */
+   left: -4.3%;
+}
+.scrollimg{
+    margin-top: -15%;
+    /* margin-left: -5%; */
+    align-items: center;
+}
+.rightimage{
+    /* flex: 30%; */
+    /* width: 30%; */
+    z-index: -1;
+    overflow: hidden;
+   position: absolute;
+   right:0;
+  max-width: 100%;
+  /* background-image: url(desktop-right.svg); */
+}
+.maintext{
+    position: relative;
+    display: flex;
+    width: 40%;
+    /* flex: 40%; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 28px;
+    text-align: center;
+    width: 50%;
+    color: white;
+    padding: 0 24% 0 26%;
+    /* margin-top: 2%; */
+    
+    /* background-image: url(./desktop-squiggle.svg); */
+}
+h1{
+    /* z-index: -1; */
+    position: absolute;
+    font-size: 2rem;
+    /* top: 40%; */
+    width: 30%;
+    padding: 30px 40px 10px;
+}
+span{
+    color:#3EE9E5
+}
+
+@media  (min-width:767px) and (max-width:1024px){
+   
+    .rightimage{
+        /* right:-12%; */
+        overflow-x: hidden;
+    }
+    
+    .rightimage>img{
+        width: 100%; 
+    height: auto; 
+    margin: 0 -95% 0 0; 
+    overflow-x: hidden;
+    }
+    .leftimage{
+        left: -18%;
+    }
+    h1{
+        padding: 30px 40px 10px;
+    }
+    /* .logocontainer{
+        align-items: center;
+    } */
+    /* .paragraph {
+        margin-top: -60%;
+        margin-left: 18%;
+    } */
+    
+}
+@media (max-width:766px){
+    .rightimage{
+        display: none;
+        
+    }
+    .paragraph{
+        margin: 207% 0 2rem 0;
+        text-align: justify;
+    }
+    .leftimage{
+    display: none;
+        
+    }
+    
+    .maincont{
+        background-image: url(mainimage.png);
+        background-repeat: no-repeat;
+        position:sticky;
+        background-size:contain; 
+        width: fit-content;
+        
+        
+    }
+    .squi{
+        display: none;
+    }
+    .logo{
+       margin-left: 60%;
+    }
+    h1{
+        margin: 69%;
+      padding: 0%;
+      width: 100%;
+    }
+    .contentprice{
+        margin: 0%;
+    }
+    .boxcontainer{
+        margin: 0%;
+    }
+    
+   
+     /*.paragraph{
+        margin-top: 160%;
+    } */
+}
